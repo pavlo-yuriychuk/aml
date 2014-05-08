@@ -1,0 +1,16 @@
+%YAML 1.2
+---
+globals:
+	define:
+		canonical:
+			- name:String
+			- dependencies:Array
+			- module:Function
+		module:
+			- module:Function
+		constant:
+			-module:Object
+	require:
+		canonical:
+			- dependencies:Array
+

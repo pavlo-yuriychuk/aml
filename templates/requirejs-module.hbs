@@ -1,0 +1,8 @@
+require([
+	{{#each dependencies}}
+		{{fileName}}
+	{{/each}}
+	],
+	function ({{#each dependencies}}{{fileName}}{{/each}}){
+
+	});

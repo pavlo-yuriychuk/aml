@@ -1,0 +1,10 @@
+;(function({{_.pluck(dependecies, 'required')}}){
+	{{#if strict}}
+	'use strict'
+	{{#else}}
+	{{/if}}
+	
+	{{body}}
+
+	return {{public}};
+})({{_.pluck(dependecies, 'passed')}})
